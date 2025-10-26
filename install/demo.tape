@@ -10,7 +10,7 @@ Set Theme "Catppuccin Mocha"
 
 # Show the prpm install command
 Type "npm install prpm -g"
-Sleep 1s
+Sleep 2s
 Enter
 
 Type "clear"
@@ -22,7 +22,7 @@ Sleep 2s
 # Show the installed files
 Type "prpm search pulumi"
 Enter
-Sleep 4s
+Sleep 5s
 
 Type "clear"
 Enter
@@ -30,7 +30,7 @@ Enter
 # Show the cursor rules file
 Type "prpm info @prpm/pulumi-troubleshooting-skill"
 Enter
-Sleep 3s
+Sleep 4s
 
 Type "clear"
 Enter
@@ -38,12 +38,12 @@ Enter
 # Show the cursor rules file
 Type "prpm install @prpm/pulumi-troubleshooting-skill"
 Enter
-Sleep 3s
+Sleep 4s
 
 # Show prpm list
 Type "prpm list"
 Enter
-Sleep 3s
+Sleep 4s
 
 Type "clear"
 Enter

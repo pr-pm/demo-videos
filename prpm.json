@@ -1,0 +1,18 @@
+{
+  "name": "vhs-demo-creation",
+  "version": "1.0.0",
+  "description": "A claude skill for creating VHS consistent vhs videos",
+  "format": "claude",
+  "subtype": "skill",
+  "author": "Khaliq <khaliqgant@gmail.com>",
+  "organization": "prpm",
+  "license": "MIT",
+  "tags": [
+    "claude",
+    "skill",
+    "vhs"
+  ],
+  "files": [
+    ".claude/skills/vhs-demo-creation/SKILL.md"
+  ]
+}

@@ -3,13 +3,13 @@
 Output demo.gif
 
 # Set up the terminal
-Set FontSize 14
+Set FontSize 16
 Set Width 1200
-Set Height 600
+Set Height 900
 Set Theme "Catppuccin Mocha"
 
 # Show the prpm install command
-Type "npm install prpm -g"
+Type "npm install -g prpm"
 Sleep 2s
 Enter
 
@@ -22,7 +22,7 @@ Sleep 2s
 # Show the installed files
 Type "prpm search pulumi"
 Enter
-Sleep 5s
+Sleep 7s
 
 Type "clear"
 Enter
@@ -30,12 +30,12 @@ Enter
 # Show the cursor rules file
 Type "prpm info @prpm/pulumi-troubleshooting-skill"
 Enter
-Sleep 4s
+Sleep 5s
 
 Type "clear"
 Enter
 
-# Show the cursor rules file
+# Install
 Type "prpm install @prpm/pulumi-troubleshooting-skill"
 Enter
 Sleep 4s

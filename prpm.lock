@@ -8,7 +8,7 @@
       "integrity": "sha256-d8a651604c461c19662f48ab7235aa04c5b95a41dc4201bbb5bb06751fd2df50",
       "format": "claude",
       "subtype": "skill",
-      "installedPath": ".claude/skills/@prpm/creating-skills-skill/SKILL.md"
+      "installedPath": ".claude/skills/creating-skills-skill/SKILL.md"
     },
     "@prpm/slash-command-builder-skill": {
       "version": "1.0.0",
@@ -16,7 +16,7 @@
       "integrity": "sha256-df553954e1000caecabaf519152d6c7b0c6cc8ebe08025ce6547d00aee4c68fb",
       "format": "claude",
       "subtype": "skill",
-      "installedPath": ".claude/skills/@prpm/slash-command-builder-skill/SKILL.md"
+      "installedPath": ".claude/skills/slash-command-builder-skill/SKILL.md"
     },
     "@prpm/agent-builder-skill": {
       "version": "1.0.0",
@@ -24,7 +24,7 @@
       "integrity": "sha256-8682d3a5a95eb95d916036d28d194745eb9c1e3089a086dbffe156bb15d51d5e",
       "format": "claude",
       "subtype": "skill",
-      "installedPath": ".claude/skills/@prpm/agent-builder-skill/SKILL.md"
+      "installedPath": ".claude/skills/agent-builder-skill/SKILL.md"
     }
   },
   "generated": "2025-10-29T08:42:51.068Z"

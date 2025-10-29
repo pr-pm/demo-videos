@@ -1,9 +1,7 @@
 {
-  "name": "vhs-demo-creation",
+  "name": "demos-packages",
   "version": "1.0.0",
-  "description": "A claude skill for creating VHS consistent vhs videos",
-  "format": "claude",
-  "subtype": "skill",
+  "description": "All packages helping with demo creation via VHS for prpm",
   "author": "Khaliq <khaliqgant@gmail.com>",
   "organization": "prpm",
   "license": "MIT",
@@ -12,7 +10,28 @@
     "skill",
     "vhs"
   ],
-  "files": [
-    ".claude/skills/vhs-demo-creation/SKILL.md"
+  "packages": [
+      {
+          "name": "vhs-demo-creation",
+          "version": "1.0.0",
+          "description": "A claude skill for creating VHS consistent vhs videos",
+          "format": "claude",
+          "private": true,
+          "subtype": "skill",
+          "files": [
+              ".claude/skills/vhs-demo-creation/SKILL.md"
+          ]
+      },
+      {
+          "name": "prpm-vhs-demo-creation-methodology",
+          "description": "A claude skill for guidance on how to create VHS demo videos",
+          "version": "1.0.0",
+          "private": true,
+          "format": "claude",
+          "subtype": "skill",
+          "files": [
+              ".claude/skills/prpm-vhs-demo-creation-methodology/SKILL.md"
+          ]
+      }
   ]
 }
